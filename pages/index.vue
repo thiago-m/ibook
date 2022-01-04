@@ -1,5 +1,9 @@
 <template>
-  <div class="box"></div>
+  <div class="wrapper">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -9,9 +13,20 @@ export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>
-.box {
-  width: 300px;
-  height: 300px;
-  background-color: color('dark');
-}  
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  grid-auto-flow: column;
+  grid-gap: 0.5rem;
+  @include screen('small') {
+    grid-template-columns: 1fr;
+  }
+  @include screen('medium') {
+    grid-template-columns: 1fr 1fr;
+  }
+  .box {
+    background-color: color('dark', 'darkest');
+  }
+}
 </style>
