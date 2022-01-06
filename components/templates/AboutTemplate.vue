@@ -6,7 +6,7 @@
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .about-template {
     display: grid;
     grid-gap: 4rem;
