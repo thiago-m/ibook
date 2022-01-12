@@ -1,0 +1,67 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "author": "Maria",
+            "releaseDate": "12/01/2022",
+            "title": "Teste",
+            "description": "Esse é um livro de teste",
+            "cover": "https://edit.org/photos/img/blog/0jw-flyer-digital-para-capas-de-livros.jpg-840.jpg",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Romance"
+                }
+            ],
+            "pages": [
+                {
+                    "id": 1,
+                    "text": "text da page",
+                    "'pageNumber": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "author": "João",
+            "releaseDate": "12/01/2022",
+            "title": "Teste",
+            "description": "Esse é um livro de teste",
+            "cover": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/32a38220862043.562f259cd3058.jpg",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Terror"
+                }
+            ],
+            "pages": [
+                {
+                    "id": 1,
+                    "text": "text da page",
+                    "'pageNumber": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "author": "Renata",
+            "releaseDate": "12/01/2022",
+            "title": "Teste",
+            "description": "Esse é um livro de teste",
+            "cover": "https://2.bp.blogspot.com/-yAdVxHXi5uQ/WjmGqV_udGI/AAAAAAAAb6s/qfVT8x3fSKE6Ytg42sT-u1e_FO2y09jmwCEwYBhgL/s1600/lab-girl-hope-jahren-editora-harper-collins-as-7-melhores-e-mais-bonitas-capas-de-2017-mademoisellelovesbooks.jpg",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Terror"
+                }
+            ],
+            "pages": [
+                {
+                    "id": 1,
+                    "text": "text da page",
+                    "'pageNumber": 1
+                }
+            ]
+        }
+    ]
+}
