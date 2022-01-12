@@ -6,6 +6,9 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  layout: 'ibook'
+  layout: 'ibook',
+  async asyncData({store}) {
+    return await store.dispatch('books/index')
+  }
 })
 </script>
